@@ -1,19 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="brasiliptv.repository" name="BRASILIPTVONLINE repository" version="0.0.2" provider-name="updroids">
-	<extension point="xbmc.addon.repository" name="BRASILIPTVONLINE Add-on Repository">
-		<info compressed="false">http://raw.github.com/updroids/brasiliptv.repository/master/addons.xml</info>
-		<checksum>http://raw.github.com/updroids/brasiliptv.repository/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/updroids/brasiliptv.repository/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>BRASILIPTVONLINE Addon</summary>
-		<description>Addon Description</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="plugin.video.brasiliptvonline" name="BRASILIPTVONLINE" version="1.0.9" provider-name="BRASILIPTVONLINE, UPDROIDS">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -29,4 +14,3 @@
 	<platform>all</platform>
   </extension>
 </addon>
-</addons>
